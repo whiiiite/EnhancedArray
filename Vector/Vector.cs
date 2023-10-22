@@ -45,7 +45,6 @@ namespace AFSMath.Sequences
         {
             if (!IsGenericAllowedType())
                 VectorThrowHelper.ThrowIfGenericNotAllowed(true);
-
             _values = new List<T>();
         }
 
